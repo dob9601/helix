@@ -5,6 +5,7 @@ members = [
   "helix-term",
   "helix-tui",
   "helix-lsp",
+  "helix-event",
   "helix-dap",
   "helix-loader",
   "helix-vcs",
@@ -32,3 +33,7 @@ inherits = "test"
 package.helix-core.opt-level = 2
 package.helix-tui.opt-level = 2
 package.helix-term.opt-level = 2
+
+[workspace.dependencies]
+tree-sitter = { version = "0.20" }
+nucleo = "0.2.0"
