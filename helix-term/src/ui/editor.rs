@@ -175,7 +175,7 @@ impl EditorView {
                 view.area,
                 theme,
                 is_focused & self.terminal_focused,
-                &mut line_decorations,
+                &mut decorations,
             );
         }
 

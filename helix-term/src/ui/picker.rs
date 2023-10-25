@@ -6,8 +6,7 @@ use crate::{
     key, shift,
     ui::{
         self,
-        document::{render_document, LineDecoration, LinePos, TextRenderer},
-        fuzzy_match::FuzzyQuery,
+        document::{render_document, LinePos, TextRenderer},
         text_decorations::DecorationManager,
         EditorView,
     },
